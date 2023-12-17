@@ -1,0 +1,23 @@
+.main-header {
+  color: brown;
+}
+
+h2 {
+  color: blue;
+}
+
+#subtitle-paragraph {
+  color: #c6c6c6;
+}
+
+.subtitle {
+  color: green;
+}
+
+.hover-section > button:hover {
+  background-color: red;
+}
+
+.hover-section > input:focus {
+  border: 5px solid green;
+}
