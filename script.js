@@ -30,9 +30,18 @@ console.log(sectionHeader);
 const hoverSection = document.querySelector('.hover-section');
 hoverSection.append(sectionHeader)
 
-// eventy 
+// click event
 const button = document.querySelector('.hover-section > button');
 const logText = () => {
   console.log('event click wykonany!');
 }
 button.addEventListener('click', logText);
+
+// change event
+const input = document.querySelector('#nameInput');
+
+const onChange = (event) => {
+  console.log(event.target.value)
+};
+
+input.addEventListener('change', onChange);
