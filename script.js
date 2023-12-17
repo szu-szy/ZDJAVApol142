@@ -38,10 +38,32 @@ const logText = () => {
 button.addEventListener('click', logText);
 
 // change event
+// pobranie input za pomoca id
 const input = document.querySelector('#nameInput');
 
+// utworzenie funkcji ktora czyta value naszego inputa
 const onChange = (event) => {
   console.log(event.target.value)
 };
 
+// dodanie eventu change ktory wywoluje funkcje onChange utworzona powyzej
 input.addEventListener('change', onChange);
+
+// submit event
+// Utworz formularz z jednym inputem oraz przyciskiem z typem submit
+// - Pobierz formularz w JS
+// - Utworz funkcje która pobierze oraz wyswietli dane z formularza
+// - Dodaj funkcje do formularza wywolana na event submit
+
+// pobieramy formularz
+const userForm = document.querySelector('#user-form');
+const userInputName = document.querySelector('#first-name');
+
+// utworzenie funkcji ktora bedzie wywolana na event submit
+const onSubmit = (event) => {
+  event.preventDefault();
+  console.log(userInputName.value);
+}
+
+// dodac funkcje do zdarzenia submit na formularzu
+userForm.addEventListener('submit', onSubmit)
