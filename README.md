@@ -26,3 +26,39 @@ Wymagania projektowe:
 
 Dodatkowe uwagi:
 Strona powinna być przejrzysta, zawierać istotne informacje dotyczące Twojego doświadczenia i umiejętności oraz być przyjazna dla użytkownika. To podstawowe portfolio, które może być później rozwijane i rozbudowywane o bardziej zaawansowane funkcje.
+
+## 17.12
+
+Zadanie praktyczne: Prosty kalkulator
+Twoim zadaniem jest stworzenie prostego kalkulatora za pomocą HTML, CSS i JavaScript. Kalkulator powinien umożliwiać użytkownikowi wykonywanie prostych operacji arytmetycznych (dodawanie, odejmowanie, mnożenie, dzielenie).
+
+Wymagania:
+Interfejs użytkownika:
+
+Stwórz prosty interfejs za pomocą HTML i CSS, zawierający pola do wprowadzania liczb oraz przyciski do operacji matematycznych (dodawania, odejmowania, mnożenia, dzielenia i równości).
+Wyświetl wynik działania na ekranie kalkulatora.
+Funkcjonalności kalkulatora:
+
+Napisz kod w JavaScript, który obsłuży logikę kalkulatora.
+Dodaj obsługę przycisków tak, aby użytkownik mógł wprowadzać liczby i wykonywać operacje arytmetyczne.
+Wyświetl rezultat na ekranie kalkulatora po naciśnięciu przycisku równości.
+Dodatkowe wskazówki:
+
+Upewnij się, że kalkulator działa poprawnie dla różnych przypadków, takich jak dzielenie przez zero czy wykonywanie operacji na liczbach dziesiętnych.
+Zadbaj o estetykę i czytelność interfejsu kalkulatora za pomocą CSS.
+
+## Zadanie 2 - tworzenie listy osób
+
+# HTML
+
+- Utwórz liste osób (ul) wraz z elementami listy (li) - 3 przykladowe osoby wystarcza <<W HTML>>
+- Utwórz formularz skladający sie z 2x input (imie, nazwisko) oraz przycisk o typie submit
+
+# JS
+
+- Pobierz liste z HTML po ID
+- Pobierz formularz oraz inputy z formularza po ID
+- Utwórz funkcje która pobiera wartosci inputów oraz tworzy nowy element <li> na bazie wartosci imienia i nazwiska
+- do kazdego elementu <li> dodaj przycisk "usun" do którego dodamy event listener który usuwa nam element z listy za pomoca metody remove
+- funkcja dodaje utworzony element <li> do listy osob <ul>
+- dodaj funkcje do eventu submit na formularzu
